@@ -1,0 +1,21 @@
+{
+  "name": "list-transition-animation",
+  "version": "1.0.0",
+  "description": "My rad Nuxt.js project",
+  "author": "LukaG",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0",
+    "v-shared-element": "^1.0.1"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2"
+  }
+}
