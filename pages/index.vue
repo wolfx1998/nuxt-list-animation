@@ -34,7 +34,11 @@
         <div class="w3-third">
           <img
           v-shared-element:vue-bcg2="{
-            zIndex: 2
+          type: 'auto',
+          easing: 'cubic-bezier(0.65, 0, 0.35, 1)',
+          duration: '600ms',
+          compositeOnly: false,
+          zIndex: 1000
           }"
           src="https://bigseventravel.com/wp-content/uploads/2019/07/augustin-de-montesquiou-RqMIFcDLeos-unsplash.jpg" style="width:100%;min-height:200px">
         </div>

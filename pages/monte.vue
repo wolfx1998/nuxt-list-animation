@@ -1,7 +1,14 @@
 <template>
     <div v-shared-element:monte class="w3-content">
     <img
-      v-shared-element:vue-bcg2
+        v-shared-element:vue-bcg2="{
+                         type: 'auto',
+      easing: 'ease',
+      duration: '300ms',
+      endDuration: '100ms',
+      compositeOnly: true,
+      zIndex: 1000
+        }"
       src="https://bigseventravel.com/wp-content/uploads/2019/07/augustin-de-montesquiou-RqMIFcDLeos-unsplash.jpg"
       alt="Vue.js logo"
     />

@@ -1,7 +1,14 @@
 <template>
     <div v-shared-element:terre class="w3-content">
     <img
-      v-shared-element:vue-bcg1
+      v-shared-element:vue-bcg1="{
+                type: 'auto',
+      easing: 'ease',
+      duration: '300ms',
+      endDuration: '100ms',
+      compositeOnly: true,
+      zIndex: 1000
+      }"
       src="https://dotravel.com/uploads/articles/95/april-holiday-destinations_3.jpg"
       alt="Vue.js logo"
     />
